@@ -1,0 +1,16 @@
+node_modules
+dist
+.DS_Store
+.node-portable
+
+# 日志文件
+*.log
+
+# Pano2VR 导出产物（与 public/pano2vr 重复）
+output/
+
+# 原始全景素材（运行时不需要）
+全景图/
+
+# Unity WebGL 构建产物（可重新构建）
+public/unity/Build/
